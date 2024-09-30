@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bulb</title>
+        <style>
+            button{
+                background:linear-gradient(to left, red, blue);
+                /* background: linear-gradient(45deg, red 0 50%, blue 50% 100%); */
+                color: white;
+                height: 50px;
+                width: 100px;
+                border-radius: 20px;
+                box-shadow: 20px 20px 10px;
+                
+            }
+        </style>
+    </head>
+<body>
+
+<button class="button" onclick="document.getElementById('myImage').src='https://www.w3schools.com/js/pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="https://www.w3schools.com/js/pic_bulboff.gif" style="width:100px">
+
+<button class="button" onclick="document.getElementById('myImage').src='https://www.w3schools.com/js/pic_bulboff.gif'">Turn off the light</button>
+
+</body>
+</html>
